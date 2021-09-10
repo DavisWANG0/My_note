@@ -83,3 +83,7 @@ print(l)
 
 ```
 
+# 3 读txt文件的方法
+
+file = open("xxx.txt")
+

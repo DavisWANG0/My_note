@@ -1,6 +1,14 @@
 # 一 知识点
 
+## 1 给dataframe加一行数据
 
+​	`df.loc[df.shape[0]] = ['a','b','c']` # df.shape[0]统计当前行数
+
+​	pd.shift(1) 向下移动 pd.shift(-1) 向上移动
+
+## 2 dataframe转为csv文件
+
+​	pd.to_csv("xxx.csv")
 
 # 二 一些问题
 
