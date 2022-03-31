@@ -61,6 +61,50 @@ for (int a: elements){
 
 **java is passing by value**
 
+## Class 2
+
+RECOMENDATION of  some books:
+
+1. Thinking in JAVA
+2. Efective Java
+
+### Numbers and Strings
+
+衡量算法时间：long t = System.nanoTime();
+
+StingBuilder Class更快
+
+### Classes and Objects
+
+```python
+public static int add(int... num){
+	int res = 0;
+    for(int a:num){
+        res += a;
+	}
+    return res;
+}
+```
+
+singleton 单身人士
+
+# Class 3
 
 
-​	
+
+## Interface
+
+1.接口 2.界面
+
+> A reference type, that can contain only constants, method signatures, default methods, static methods, and nested types
+>
+> 引用类型，只能包含常量、方法签名、默认方法、静态方法和嵌套类型 
+
+Interfaces cannot be instantiated、
+
+接口不能被实例化
+
+## Multiple Inheritance
+
+多重继承
+
